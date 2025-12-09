@@ -1,0 +1,121 @@
+@import "colors.css";
+
+* {
+  border: none;
+  border-radius: 0px;
+  font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+    background-color: @surface;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+#workspaces {
+  min-width: 0;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button {
+  color: @secondary;
+  transition: all 0.3s ease-in-out;
+  min-width: 0;
+  margin: 0 5px;
+}
+
+#workspaces button:hover {
+  background: none;
+  color: @on-primary;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+  color: @primary;
+  transition: all 0.3s ease-in-out;
+}
+
+#disk,
+#cpu,
+#memory,
+#bluetooth,
+#clock,
+#network,
+#pulseaudio,
+#tray {
+  font-weight: bold;
+  padding: 0 10px;
+  color: @primary;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#network {
+  color: @primary;
+}
+
+#network.disconnected {
+  color: @error;
+}
+
+#pulseaudio-slider {
+  margin: 6px 0;
+  min-width: 80px;
+  padding: 0 8px;
+}
+
+#pulseaudio-slider slider {
+  background: @tertiary;
+  border-radius: 50%;
+  min-width: 10px;
+  min-height: 10px;
+  box-shadow: none;
+  margin: -4px 0;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+#pulseaudio-slider through,
+#pulseaudio-slider highlight {
+  transition: background 0.2s ease-in-out;
+  background: @primary;
+  min-height: 4px;
+}
+
+#pulseaudio {
+    color: @primary;
+}
+
+#pulseaudio.muted {
+    color: @tertiary;
+}
+
+#pulseaudio.disconnected {
+  color: @error;
+}
+
+#tray {
+    color: @primary;
+}
+
+#custom-os_button {
+  color: @primary;
+  font-size: 1rem;
+  padding: 0 10px;
+}

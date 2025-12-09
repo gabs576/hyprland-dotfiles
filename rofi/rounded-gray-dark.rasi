@@ -1,0 +1,12 @@
+@theme "colors.rasi"
+
+* {
+    bg0:    @surface;
+    bg1:    @surface-container;
+    bg2:    @error;
+    bg3:    @primary;
+    fg0:    @on-surface;
+    fg1:    #FFFFFF;
+    fg2:    @primary;
+    fg3:    @primary-fixed-dim;
+}

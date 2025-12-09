@@ -1,0 +1,16 @@
+theme = "Matugen"
+font-size = 12
+font-family = "JetBrainsMono Nerd Font"
+background-opacity = 0.9
+shell-integration-features = no-cursor,sudo,no-title
+cursor-style = bar
+cursor-style-blink = true
+adjust-cell-height = 5%
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+window-padding-balance = true
+window-save-state = always
+
+confirm-close-surface = false
