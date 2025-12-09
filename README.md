@@ -8,7 +8,9 @@ and uses matugen as color generator
 # commands
 
 To open the web browser it uses SUPER+B;
+
 For file manager SUPER+E;
+
 For rofi SUPER+Space;
 
 # Rofi
@@ -16,9 +18,13 @@ For rofi SUPER+Space;
 On rofi it has some scripts it can help you during your daily drive
 
 For wallpaper selector is SUPER+W;
+
 For wifi is SUPER+T;
+
 Bluetooth is SUPER+M;
+
 For some notes is SUPER+N;
+
 For power options is SUPER+P;
 
 # IDE
