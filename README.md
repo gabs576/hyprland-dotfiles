@@ -27,11 +27,11 @@ It uses neovim with Lazy.nvim, as lsp-config, autocompletion, debuggin (on the m
 
 # commands neovim
 
-Ctrl+n to use neo-tree and Space+n to close
-Ctrl+p to find files
-Space+gf to format files
-Space+fg for live grep files and folder
-Space+dt to make a brakepoint
-Space+dc to start debbug the line marked as brakepoint
+Ctrl+n to use neo-tree and Space+n to close\n
+Ctrl+p to find files\n
+Space+gf to format files\n
+Space+fg for live grep files and folder\n
+Space+dt to make a brakepoint\n
+Space+dc to start debbug the line marked as brakepoint\n
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b0ecfb39-9e33-4fcc-a4d7-0f51a9851f51" />
