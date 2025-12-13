@@ -12,5 +12,3 @@ mouse-scroll-multiplier = 2
 
 window-padding-balance = true
 window-save-state = always
-
-confirm-close-surface = false
